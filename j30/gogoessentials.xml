@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+    <name>PLG_SYSTEM_GOGOESSENTIALS</name>
+    <author>Gogodigital Srls</author>
+    <creationDate>2016-05-19</creationDate>
+    <copyright>Copyright (C) 2010-2016 Gogodigital Slrs. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorEmail>info@gogodigital.it</authorEmail>
+    <authorUrl>www.gogodigital.it</authorUrl>
+    <version>3.0.0</version>
+    <description>System Plugin - Gogodigital Essentials</description>
+    <files>
+        <filename plugin="gogoessentials">gogoessentials.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">languages/en-GB/en-GB.plg_system_gogoessentials.sys.ini</language>
+        <language tag="it-IT">languages/it-IT/it-IT.plg_system_gogoessentials.sys.ini</language>
+    </languages>
+    <config>
+    </config>
+</extension>
