@@ -23,8 +23,7 @@
 		<fieldset name="security">
 		</fieldset>
 		<fieldset name="seo">
-            <field name="essentials_ganlytics_sub" type="spacer" label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS" />
-			<field name="googleAnalytics_id" type="text" size="13" placeholder="UA-XXXXXXXX-X"
+			<field name="googleAnalytics_id" type="text" size="13"
 			    label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_LABEL"
 				description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_DESC" />
             <field name="googleAnalytics_admin" type="radio" class="btn-group btn-group-yesno"
@@ -34,7 +33,13 @@
                 <option value="1">JYES</option>
                 <option value="0">JNO</option>
             </field>
-            <field name="essentials_ganlytics_sub" type="spacer" label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS" />
+            <field name="essentials_ganlytics_hr" type="spacer" hr="true" />
+            <field name="googleVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_DESC" />
+            <field name="bingVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_DESC" />
 		</fieldset>
 		<fieldset name="social">
 		</fieldset>
