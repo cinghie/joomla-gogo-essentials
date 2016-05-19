@@ -13,8 +13,8 @@
         <filename plugin="gogoessentials">gogoessentials.php</filename>
     </files>
     <languages>
-        <language tag="en-GB">languages/en-GB/en-GB.plg_system_gogoessentials.sys.ini</language>
-        <language tag="it-IT">languages/it-IT/it-IT.plg_system_gogoessentials.sys.ini</language>
+        <language tag="en-GB">languages/en-GB.plg_system_gogoessentials.sys.ini</language>
+        <language tag="it-IT">languages/it-IT.plg_system_gogoessentials.sys.ini</language>
     </languages>
     <config>
     </config>
