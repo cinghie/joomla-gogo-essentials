@@ -1,4 +1,3 @@
-Joomla Gogo Utilities
-----------------------
+#Joomla Gogodigital Essentials
 
 Essentials Utilities for all Joomla sites
