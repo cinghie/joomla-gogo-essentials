@@ -17,15 +17,17 @@
         <language tag="it-IT">languages/it-IT.plg_system_gogoessentials.sys.ini</language>
     </languages>
     <config>
-		<fields name="params">
-			<fieldset name="security">
-			</fieldset>
-			<fieldset name="seo">
-			</fieldset>
-			<fieldset name="social">
-			</fieldset>
-			<fieldset name="template">
-			</fieldset>
-		</fields>	
+	<fields name="params">
+		<fieldset name="basic">
+		</fieldset>
+		<fieldset name="security">
+		</fieldset>
+		<fieldset name="seo">
+		</fieldset>
+		<fieldset name="social">
+		</fieldset>
+		<fieldset name="template">
+		</fieldset>
+	</fields>	
     </config>
 </extension>
