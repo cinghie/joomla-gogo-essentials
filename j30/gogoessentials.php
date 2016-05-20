@@ -26,7 +26,7 @@ class plgSystemGogoessentials extends JPlugin
     {
         $document = JFactory::getDocument();
 
-        if(!empty($this->params->get('alexasVerification'))) { $document->setMetaData('alexaVerifyID', $this->params->get('alexasVerification')); }
+        if(!empty($this->params->get('alexaVerification'))) { $document->setMetaData('alexaVerifyID', $this->params->get('alexaVerification')); }
         if(!empty($this->params->get('bingVerification'))) { $document->setMetaData('msvalidate.01', $this->params->get('bingVerification')); }
         if(!empty($this->params->get('googleVerification'))) { $document->setMetaData('google-site-verification', $this->params->get('googleVerification')); }
         if(!empty($this->params->get('nortonVerification'))) { $document->setMetaData('norton-safeweb-site-verification', $this->params->get('nortonVerification')); }
