@@ -23,10 +23,10 @@
 		<fieldset name="security">
 		</fieldset>
 		<fieldset name="seo">
-			<field name="googleAnalytics_id" type="text" size="13"
+			<field name="googleAnalyticsID" type="text" size="13"
 			    label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_LABEL"
 				description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_DESC" />
-            <field name="googleAnalytics_admin" type="radio" class="btn-group btn-group-yesno"
+            <field name="googleAnalyticsAdmin" type="radio" class="btn-group btn-group-yesno"
                 default="0"
                 description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_DESC"
                 label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_LABEL">
@@ -34,12 +34,20 @@
                 <option value="0">JNO</option>
             </field>
             <field name="essentials_ganlytics_hr" type="spacer" hr="true" />
-            <field name="googleVerification" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_DESC" />
+
+            <field name="alexaVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_DESC" />
             <field name="bingVerification" type="text"
                    label="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_LABEL"
                    description="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_DESC" />
+            <field name="googleVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_DESC" />
+            <field name="nortonVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_DESC" />
+            <field name="essentials_verification_hr" type="spacer" hr="true" />
 		</fieldset>
 		<fieldset name="social">
 		</fieldset>

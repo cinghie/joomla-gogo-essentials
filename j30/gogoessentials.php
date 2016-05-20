@@ -22,9 +22,19 @@ class plgSystemGogoessentials extends JPlugin
         parent::__construct( $subject, $config );
     }
 
+    public function onAfterInitialise()
+    {
+        $document = JFactory::getDocument();
+
+        if(!empty($this->params->get('alexasVerification'))) { $document->setMetaData('alexaVerifyID', $this->params->get('alexasVerification')); }
+        if(!empty($this->params->get('bingVerification'))) { $document->setMetaData('msvalidate.01', $this->params->get('bingVerification')); }
+        if(!empty($this->params->get('googleVerification'))) { $document->setMetaData('google-site-verification', $this->params->get('googleVerification')); }
+        if(!empty($this->params->get('nortonVerification'))) { $document->setMetaData('norton-safeweb-site-verification', $this->params->get('nortonVerification')); }
+    }
+
     public function onBeforeCompileHead()
     {
-        if ($this->params->get('googleAnaliytics_admin') == false) {
+        if ($this->params->get('googleAnalyticsAdmin') == false) {
             $app = JFactory::getApplication();
 
             if ($app->isAdmin()) {
@@ -32,8 +42,8 @@ class plgSystemGogoessentials extends JPlugin
             }
         }
 
-        if($this->params->get('googleAnalytics_id'))
-        $this->addingTrackingCode($this->params->get('googleAnalytics_id'));
+        if($this->params->get('googleAnalyticsID'))
+        $this->addingTrackingCode($this->params->get('googleAnalyticsID'));
     }
 
     protected function addingTrackingCode($trackingid)
