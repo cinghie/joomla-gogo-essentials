@@ -34,7 +34,8 @@ class plgSystemGogoessentials extends JPlugin
 
     public function onBeforeCompileHead()
     {
-        if ($this->params->get('googleAnalyticsAdmin') == false) {
+        if (!$this->params->get('googleAnalyticsAdmin'))
+        {
             $app = JFactory::getApplication();
 
             if ($app->isAdmin()) {
