@@ -77,7 +77,20 @@
 				   description="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_DESC" />
 		</fieldset>
 		<fieldset name="template">
-	
+			<field name="cssFilename" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_DESC" />
+			<field name="cssStyle" type="textarea"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_DESC" />
+			<field name="essentials_css_hr" type="spacer" hr="true" />
+			<field name="jsFilename" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_DESC" />
+			<field name="jsScript" type="textarea"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_DESC" />
+			<field name="essentials_js_hr" type="spacer" hr="true" />
 		</fieldset>
 	</fields>	
     </config>
