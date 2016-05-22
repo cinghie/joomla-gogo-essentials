@@ -18,9 +18,6 @@
     </languages>
     <config>
 	<fields name="params">
-	    <fieldset name="basic">
-	
-	    </fieldset>
 		<fieldset name="security">
 			<field name="adminKey" type="text"
 			    label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
@@ -63,7 +60,21 @@
 	        <field name="essentials_verification_hr" type="spacer" hr="true" />
 		</fieldset>
 		<fieldset name="social">
-	
+			<field name="facebookPage" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_DESC" />
+			<field name="googlePage" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PAGE_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PAGE_DESC" />
+			<field name="linkedinPage" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_LINKEDIN_PAGE_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_LINKEDIN_PAGE_DESC" />
+			<field name="pinterestPage" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_PAGE_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_PAGE_DESC" />
+			<field name="twitterPage" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_DESC" />
 		</fieldset>
 		<fieldset name="template">
 	

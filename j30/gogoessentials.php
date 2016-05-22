@@ -20,7 +20,6 @@ class plgSystemGogoessentials extends JPlugin
     public function __construct( &$subject, $config )
     {
         parent::__construct( $subject, $config );
-        $this->admin_key = $this->params->get('adminKey');
     }
 
     public function onAfterDispatch()
@@ -61,7 +60,10 @@ class plgSystemGogoessentials extends JPlugin
         }
 
         if($this->params->get('googleAnalyticsID'))
-        $this->addingTrackingCode($this->params->get('googleAnalyticsID'));
+            $this->addingTrackingCode($this->params->get('googleAnalyticsID'));
+
+        if($this->params->get('facebookPage') || $this->params->get('googlePage') || $this->params->get('linkedinPage') || $this->params->get('pinterestPage') || $this->params->get('twitterPage'))
+            $this->addingSchemaScript();
     }
 
     protected function addingTrackingCode($trackingid)
@@ -75,6 +77,37 @@ class plgSystemGogoessentials extends JPlugin
 
         $document = JFactory::getDocument();
         $document->addScriptDeclaration($script);
+    }
+
+    protected function addingSchemaScript()
+    {
+        $config = JFactory::getConfig();
+        $script = '{"@context": "http://schema.org/","@type": "WebSite","name": "'.$config->get('sitename').'","url": "'.JURI::base().'","sameAs" : ['.$this->createSocialString().']}';
+
+        $document = JFactory::getDocument();
+        $document->addScriptDeclaration($script,"application/ld+json");
+    }
+
+    protected function createSocialString()
+    {
+        $social = '';
+
+        if($this->params->get('facebookPage'))
+            $social .= '"'.$this->params->get('facebookPage').'",';
+
+        if($this->params->get('googlePage'))
+            $social .= '"'.$this->params->get('googlePage').'",';
+
+        if($this->params->get('linkedinPage'))
+            $social .= '"'.$this->params->get('linkedinPage').'",';
+
+        if($this->params->get('pinterestPage'))
+            $social .= '"'.$this->params->get('pinterestPage').'",';
+
+        if($this->params->get('twitterPage'))
+            $social .= '"'.$this->params->get('twitterPage').'",';
+
+        return substr($social,0,-1);
     }
 
 }
