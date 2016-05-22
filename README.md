@@ -41,3 +41,8 @@ System Plugin with Essentials Utilities for all Joomla sites
 
 ##Template
 
+ - Google Fonts
+ - CSS Filename
+ - CSS Style
+ - JS Filename
+ - JS Script
