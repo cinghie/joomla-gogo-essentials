@@ -5,6 +5,8 @@ System Plugin with Essentials Utilities for all Joomla sites
 ##Security
 
  - Admin Password
+ - Redirect URL
+ - Log Failure Access (only Pro Version)
 
 ##SEO
 
