@@ -50,6 +50,9 @@
             <field name="nortonVerification" type="text"
                    label="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_LABEL"
                    description="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_DESC" />
+            <field name="pinterestVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_DESC" />
             <field name="yandexVerification" type="text"
                    label="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_LABEL"
                    description="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_DESC" />

@@ -30,7 +30,8 @@ class plgSystemGogoessentials extends JPlugin
         if(!empty($this->params->get('bingVerification'))) { $document->setMetaData('msvalidate.01', $this->params->get('bingVerification')); }
         if(!empty($this->params->get('googleVerification'))) { $document->setMetaData('google-site-verification', $this->params->get('googleVerification')); }
         if(!empty($this->params->get('nortonVerification'))) { $document->setMetaData('norton-safeweb-site-verification', $this->params->get('nortonVerification')); }
-        if(!empty($this->params->get('yandexVerification'))) { $document->setMetaData('yandexVerifyID', $this->params->get('yandexVerification')); }
+        if(!empty($this->params->get('pinterestVerification'))) { $document->setMetaData('p:domain_verify', $this->params->get('pinterestVerification')); }
+        if(!empty($this->params->get('yandexVerification'))) { $document->setMetaData('yandex-verification', $this->params->get('yandexVerification')); }
     }
 
     public function onBeforeCompileHead()
