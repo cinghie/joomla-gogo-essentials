@@ -77,6 +77,10 @@
 				   description="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_DESC" />
 		</fieldset>
 		<fieldset name="template">
+			<field name="googleFonts" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_DESC" />
+			<field name="essentials_googlefont_hr" type="spacer" hr="true" />
 			<field name="cssFilename" type="text"
 				   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"
 				   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_DESC" />

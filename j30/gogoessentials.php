@@ -60,6 +60,16 @@ class plgSystemGogoessentials extends JPlugin
             }
         }
 
+        if($this->params->get('googleFonts'))
+        {
+            $googleFonts = explode(",", $this->params->get('googleFonts'));
+
+            foreach($googleFonts as $googleFont)
+            {
+                $this->addGoogleFont($doc,$googleFont);
+            }
+        }
+
         if($this->params->get('cssFilename'))
             $doc->addStyleSheet(JURI::Base().'templates/'.$app->getTemplate().'/'.$this->params->get('cssFilename'));
 
@@ -121,6 +131,12 @@ class plgSystemGogoessentials extends JPlugin
             $social .= '"'.$this->params->get('twitterPage').'",';
 
         return substr($social,0,-1);
+    }
+
+    protected function addGoogleFont($doc,$fontname)
+    {
+        $googlefont = "http://fonts.googleapis.com/css?family=" . str_replace(' ','+',$fontname);
+        $doc->addStylesheet($googlefont);
     }
 
 }
