@@ -12,6 +12,7 @@ System Plugin with Essentials Utilities for all Joomla sites
 
  - Tracking ID
  - Tracking Admin
+ - Tracking Domain (only Pro Version)
  
 ###Verification
 
@@ -20,6 +21,10 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Google
  - Norton
  - Yandex
+
+##Schema.org (only Pro Version)
+
+ - 
 
 ##Social
 
