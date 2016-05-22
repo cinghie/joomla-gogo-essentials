@@ -23,8 +23,9 @@
 	    </fieldset>
 		<fieldset name="security">
 			<field name="adminKey" type="text"
-				   label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
-				   description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_DESC" />
+			    label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
+			    description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_DESC" />
+			<field name="essentials_adminpsw_hr" type="spacer" hr="true" />
 	    </fieldset>
 		<fieldset name="seo">
 		    <field name="googleAnalyticsID" type="text"
