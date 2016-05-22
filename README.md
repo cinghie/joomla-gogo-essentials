@@ -32,7 +32,7 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Name
  - Logo
 
-##Social Schema.org
+##Schema.org Social
 
  - Facebook Page
  - Twitter Page
