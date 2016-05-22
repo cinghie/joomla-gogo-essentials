@@ -70,6 +70,14 @@ class plgSystemGogoessentials extends JPlugin
             }
         }
 
+        if($this->params->get('googleAuthor'))
+            $linkAuthor = '<link href="'.$this->params->get('googleAuthor').'" rel="author" />';
+            $doc->addCustomTag($linkAuthor);
+
+        if($this->params->get('googlePublisher'))
+            $linkPublisher = '<link href="'.$this->params->get('googlePublisher').'" rel="publisher" />';
+            $doc->addCustomTag($linkPublisher);
+
         if($this->params->get('cssFilename'))
             $doc->addStyleSheet(JURI::Base().'templates/'.$app->getTemplate().'/'.$this->params->get('cssFilename'));
 

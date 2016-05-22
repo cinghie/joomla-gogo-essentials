@@ -39,6 +39,13 @@
 	            <option value="0">JNO</option>
 	        </field>
 	        <field name="essentials_ganlytics_hr" type="spacer" hr="true" />
+            <field name="googleAuthor" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_AUTHOR_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_AUTHOR_DESC" />
+            <field name="googlePublisher" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PUBLISHER_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PUBLISHER_DESC" />
+			<field name="essentials_gpublisher_hr" type="spacer" hr="true" />
 	        <field name="alexaVerification" type="text"
 	            label="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_LABEL"
 	            description="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_DESC" />
