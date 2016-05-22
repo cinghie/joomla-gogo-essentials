@@ -25,6 +25,9 @@
 			<field name="adminKey" type="text"
 			    label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
 			    description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_DESC" />
+			<field name="adminRedirect" type="text"
+				   label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_LABEL"
+				   description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_DESC" />
 			<field name="essentials_adminpsw_hr" type="spacer" hr="true" />
 	    </fieldset>
 		<fieldset name="seo">

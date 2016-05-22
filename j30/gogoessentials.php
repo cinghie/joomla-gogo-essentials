@@ -25,13 +25,14 @@ class plgSystemGogoessentials extends JPlugin
 
     public function onAfterDispatch()
     {
-        $app = JFactory::getApplication();
+        $app  = JFactory::getApplication();
+        $user = JFactory::getUser();
 
-        if($this->admin_key)
+        if($this->params->get('adminKey'))
         {
-            if ($app->isAdmin() && !isset($_GET[$this->admin_key]))
+            if ($app->isAdmin() && !$user->id && !isset($_GET[$this->params->get('adminKey')]))
             {
-                $app->redirect(JURI::root());
+                if(isset($_GET[$this->params->get('adminKey')])) { $app->redirect(JURI::root()); } else { $app->redirect($this->params->get('adminRedirect')); }
             }
         }
     }
