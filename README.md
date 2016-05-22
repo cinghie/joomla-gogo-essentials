@@ -16,6 +16,11 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Tracking Admin
  - Tracking Domain (only Pro Version)
  
+###Google Author/Publisher
+
+- Google Author
+- Google Publisher
+ 
 ###Verification
 
  - Alexa
