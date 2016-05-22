@@ -24,7 +24,11 @@ System Plugin with Essentials Utilities for all Joomla sites
 
 ##Schema.org (only Pro Version)
 
- - 
+ - Website Name
+ - Website Name Alternative
+ - Type
+ - Name
+ - Logo
 
 ##Social
 
