@@ -20,6 +20,20 @@ class plgSystemGogoessentials extends JPlugin
     public function __construct( &$subject, $config )
     {
         parent::__construct( $subject, $config );
+        $this->admin_key = $this->params->get('adminKey');
+    }
+
+    public function onAfterDispatch()
+    {
+        $app = JFactory::getApplication();
+
+        if($this->admin_key)
+        {
+            if ($app->isAdmin() && !isset($_GET[$this->admin_key]))
+            {
+                $app->redirect(JURI::root());
+            }
+        }
     }
 
     public function onAfterInitialise()
