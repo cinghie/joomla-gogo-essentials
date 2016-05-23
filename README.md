@@ -49,6 +49,7 @@ System Plugin with Essentials Utilities for all Joomla sites
 ###Framework
 
  - Boostrap
+ - Font Awesome
  - Google Fonts
  - jQuery
 
