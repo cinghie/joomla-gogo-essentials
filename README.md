@@ -46,7 +46,9 @@ System Plugin with Essentials Utilities for all Joomla sites
 
 ##Template
 
+ - Boostrap
  - Google Fonts
+ - jQuery
  - CSS Filename
  - CSS Style
  - JS Filename
