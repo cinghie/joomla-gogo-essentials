@@ -29,7 +29,7 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Norton
  - Yandex
 
-##Schema.org (only Pro Version)
+##Schema.org - Organization/Person (only Pro Version)
 
  - Website Name
  - Website Name Alternative
@@ -37,7 +37,7 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Name
  - Logo
 
-##Schema.org Social
+##Schema.org - Social
 
  - Facebook Page
  - Twitter Page
