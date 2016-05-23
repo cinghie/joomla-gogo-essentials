@@ -11,9 +11,9 @@
     <description>System Plugin - Gogodigital Essentials</description>
     <files>
         <filename plugin="gogoessentials">gogoessentials.php</filename>
-		<files>css/</files>
-		<files>fonts/</files>
-		<files>js/</files>
+		<folder>css/</folder>
+		<folder>fonts/</folder>
+		<folder>js/</folder>
     </files>
     <languages>
         <language tag="en-GB">languages/en-GB.plg_system_gogoessentials.sys.ini</language>
