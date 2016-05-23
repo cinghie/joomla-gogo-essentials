@@ -90,6 +90,20 @@
 			<field name="googleFonts" type="text"
 				   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_LABEL"
 				   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_DESC" />
+            <field name="fontAwesome" type="radio" class="btn-group btn-group-yesno"
+                   default="0"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_FONTAWESOME_DESC"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_FONTAWESOME_LABEL">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+            <field name="bootStrap" type="radio" class="btn-group btn-group-yesno"
+                   default="0"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_LABEL"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
 			<field name="essentials_googlefont_hr" type="spacer" hr="true" />
 			<field name="cssFilename" type="text"
 				   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"

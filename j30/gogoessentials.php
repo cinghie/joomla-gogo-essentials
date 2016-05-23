@@ -78,6 +78,9 @@ class plgSystemGogoessentials extends JPlugin
             $linkPublisher = '<link href="'.$this->params->get('googlePublisher').'" rel="publisher" />';
             $doc->addCustomTag($linkPublisher);
 
+        if($this->params->get('fontAwesome'))
+            $doc->addStyleSheet(JURI::Base().'plugins/system/gogoessentials/css/font-awesome.min.css');
+
         if($this->params->get('cssFilename'))
             $doc->addStyleSheet(JURI::Base().'templates/'.$app->getTemplate().'/'.$this->params->get('cssFilename'));
 
