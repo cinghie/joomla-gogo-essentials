@@ -52,6 +52,7 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Font Awesome
  - Google Fonts
  - jQuery
+ - jQuery No Conflict
 
 ###CSS Custom
 
