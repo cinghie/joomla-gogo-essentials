@@ -81,11 +81,20 @@ class plgSystemGogoessentials extends JPlugin
         if($this->params->get('fontAwesome'))
             $doc->addStyleSheet(JURI::Base().'plugins/system/gogoessentials/css/font-awesome.min.css');
 
+        if($this->params->get('bootStrap'))
+            $doc->addStyleSheet(JURI::Base().'plugins/system/gogoessentials/css/bootstrap.min.css');
+
         if($this->params->get('cssFilename'))
             $doc->addStyleSheet(JURI::Base().'templates/'.$app->getTemplate().'/'.$this->params->get('cssFilename'));
 
         if($this->params->get('cssStyle'))
             $doc->addStyleDeclaration($this->params->get('cssStyle'));
+
+        if($this->params->get('jquery'))
+            $doc->addStyleSheet(JURI::Base().'media/jui/js/jquery.min.js');
+
+        if($this->params->get('jquery-noconflict'))
+            $doc->addStyleSheet(JURI::Base().'media/jui/js/jquery-noconflict.js');
 
         if($this->params->get('jsFilename'))
             $doc->addStyleSheet(JURI::Base().'templates/'.$app->getTemplate().'/'.$this->params->get('jsFilename'));

@@ -87,9 +87,13 @@
 				   description="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_DESC" />
 		</fieldset>
 		<fieldset name="template">
-			<field name="googleFonts" type="text"
-				   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_LABEL"
-				   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_DESC" />
+            <field name="bootStrap" type="radio" class="btn-group btn-group-yesno"
+                   default="0"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_DESC"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_LABEL">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
             <field name="fontAwesome" type="radio" class="btn-group btn-group-yesno"
                    default="0"
                    description="PLG_SYSTEM_GOGOESSENTIALS_FONTAWESOME_DESC"
@@ -97,13 +101,23 @@
                 <option value="1">JYES</option>
                 <option value="0">JNO</option>
             </field>
-            <field name="bootStrap" type="radio" class="btn-group btn-group-yesno"
+            <field name="jquery" type="radio" class="btn-group btn-group-yesno"
                    default="0"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_LABEL"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_DESC">
+                   description="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_DESC"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_LABEL">
                 <option value="1">JYES</option>
                 <option value="0">JNO</option>
             </field>
+            <field name="jquery-noconflict" type="radio" class="btn-group btn-group-yesno"
+                   default="0"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_NOCONFLICT_DESC"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_NOCONFLICT_LABEL">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+            <field name="googleFonts" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_DESC" />
 			<field name="essentials_googlefont_hr" type="spacer" hr="true" />
 			<field name="cssFilename" type="text"
 				   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"
