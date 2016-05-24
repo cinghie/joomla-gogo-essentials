@@ -4,11 +4,22 @@ System Plugin with Essentials Utilities for all Joomla sites
 
 ##Microdata (only Pro Version)
 
- - Website Name
- - Website Name Alternative
  - Type
  - Name
- - Logo
+ - Image
+ - URL
+ - TAX ID
+ - VAT ID
+ - Telephone
+ - Fax
+ - Email
+ - Street
+ - City
+ - Region
+ - Country
+ - Postal Code
+ - Latitude
+ - Longitude
 
 ##Microdata - Social
 
@@ -42,7 +53,7 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Bing
  - Google
  - Norton
- - Yandex
+ - Yandex 
 
 ##Template
 
