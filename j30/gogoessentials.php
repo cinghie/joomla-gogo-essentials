@@ -106,7 +106,7 @@ class plgSystemGogoessentials extends JPlugin
             $this->addingTrackingCode($this->params->get('googleAnalyticsID'));
 
         if($this->params->get('facebookPage') || $this->params->get('googlePage') || $this->params->get('linkedinPage') || $this->params->get('pinterestPage') || $this->params->get('twitterPage'))
-            $this->addingSchemaScript();
+            $this->addingMicrodataSocialScript();
     }
 
     protected function addingTrackingCode($trackingid)
@@ -122,7 +122,7 @@ class plgSystemGogoessentials extends JPlugin
         $document->addScriptDeclaration($script);
     }
 
-    protected function addingSchemaScript()
+    protected function addingMicrodataSocialScript()
     {
         $config = JFactory::getConfig();
         $script = '{"@context": "http://schema.org/","@type": "WebSite","name": "'.$config->get('sitename').'","url": "'.JURI::base().'","sameAs" : ['.$this->createSocialString().']}';
