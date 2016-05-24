@@ -69,7 +69,13 @@
 	            description="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_DESC" />
 	        <field name="essentials_verification_hr" type="spacer" hr="true" />
 		</fieldset>
-		<fieldset name="social">
+		<fieldset name="microdata">
+
+		</fieldset>
+        <fieldset name="opengraph">
+
+        </fieldset>
+		<fieldset name="microdata_social">
 			<field name="facebookPage" type="text"
 				   label="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_LABEL"
 				   description="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_DESC" />
