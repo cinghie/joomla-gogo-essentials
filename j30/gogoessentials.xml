@@ -21,60 +21,9 @@
     </languages>
     <config>
 	<fields name="params">
-		<fieldset name="security">
-			<field name="adminKey" type="text"
-			    label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
-			    description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_DESC" />
-			<field name="adminRedirect" type="text"
-				   label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_LABEL"
-				   description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_DESC" />
-			<field name="essentials_adminpsw_hr" type="spacer" hr="true" />
-	    </fieldset>
-		<fieldset name="seo">
-		    <field name="googleAnalyticsID" type="text"
-		        label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_LABEL"
-		        description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_DESC" />
-	        <field name="googleAnalyticsAdmin" type="radio" class="btn-group btn-group-yesno"
-	            default="0"
-	            description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_DESC"
-	            label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_LABEL">
-	            <option value="1">JYES</option>
-	            <option value="0">JNO</option>
-	        </field>
-	        <field name="essentials_ganlytics_hr" type="spacer" hr="true" />
-            <field name="googleAuthor" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_AUTHOR_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_AUTHOR_DESC" />
-            <field name="googlePublisher" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PUBLISHER_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PUBLISHER_DESC" />
-			<field name="essentials_gpublisher_hr" type="spacer" hr="true" />
-	        <field name="alexaVerification" type="text"
-	            label="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_LABEL"
-	            description="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_DESC" />
-	        <field name="bingVerification" type="text"
-	            label="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_LABEL"
-	            description="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_DESC" />
-	        <field name="googleVerification" type="text"
-	            label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_LABEL"
-	            description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_DESC" />
-	        <field name="nortonVerification" type="text"
-	            label="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_LABEL"
-	            description="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_DESC" />
-	        <field name="pinterestVerification" type="text"
-	            label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_LABEL"
-	            description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_DESC" />
-			<field name="yandexVerification" type="text"
-	            label="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_LABEL"
-	            description="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_DESC" />
-	        <field name="essentials_verification_hr" type="spacer" hr="true" />
-		</fieldset>
 		<fieldset name="microdata">
 
 		</fieldset>
-        <fieldset name="opengraph">
-
-        </fieldset>
 		<fieldset name="microdata_social">
 			<field name="facebookPage" type="text"
 				   label="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_LABEL"
@@ -92,6 +41,57 @@
 				   label="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_LABEL"
 				   description="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_DESC" />
 		</fieldset>
+        <fieldset name="opengraph">
+
+        </fieldset>
+        <fieldset name="security">
+            <field name="adminKey" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_DESC" />
+            <field name="adminRedirect" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_DESC" />
+            <field name="essentials_adminpsw_hr" type="spacer" hr="true" />
+        </fieldset>
+        <fieldset name="seo">
+            <field name="googleAnalyticsID" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_DESC" />
+            <field name="googleAnalyticsAdmin" type="radio" class="btn-group btn-group-yesno"
+                   default="0"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_DESC"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_LABEL">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+            <field name="essentials_ganlytics_hr" type="spacer" hr="true" />
+            <field name="googleAuthor" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_AUTHOR_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_AUTHOR_DESC" />
+            <field name="googlePublisher" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PUBLISHER_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PUBLISHER_DESC" />
+            <field name="essentials_gpublisher_hr" type="spacer" hr="true" />
+            <field name="alexaVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_DESC" />
+            <field name="bingVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_DESC" />
+            <field name="googleVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_DESC" />
+            <field name="nortonVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_DESC" />
+            <field name="pinterestVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_DESC" />
+            <field name="yandexVerification" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_DESC" />
+            <field name="essentials_verification_hr" type="spacer" hr="true" />
+        </fieldset>
 		<fieldset name="template">
             <field name="bootStrap" type="radio" class="btn-group btn-group-yesno"
                    default="0"
