@@ -11,9 +11,7 @@ System Plugin with Essentials Utilities for all Joomla sites
  - TAX ID
  - VAT ID
  - Email
- - Email2
  - Telephone
- - Telephone2
  - Fax
  - Street
  - City
