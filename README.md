@@ -4,15 +4,17 @@ System Plugin with Essentials Utilities for all Joomla sites
 
 ##Microdata (only Pro Version)
 
- - Type
+ - Type (Event,LocalBusiness,Organization,Person)
  - Name
  - Image
  - URL
  - TAX ID
  - VAT ID
- - Telephone
- - Fax
  - Email
+ - Email2
+ - Telephone
+ - Telephone2
+ - Fax
  - Street
  - City
  - Region
