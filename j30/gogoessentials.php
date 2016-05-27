@@ -141,6 +141,9 @@ class plgSystemGogoessentials extends JPlugin
         if($this->params->get('googlePage'))
             $social .= '"'.$this->params->get('googlePage').'",';
 
+        if($this->params->get('instagramPage'))
+            $social .= '"'.$this->params->get('instagramPage').'",';
+
         if($this->params->get('linkedinPage'))
             $social .= '"'.$this->params->get('linkedinPage').'",';
 
@@ -149,6 +152,9 @@ class plgSystemGogoessentials extends JPlugin
 
         if($this->params->get('twitterPage'))
             $social .= '"'.$this->params->get('twitterPage').'",';
+
+        if($this->params->get('youtubePage'))
+            $social .= '"'.$this->params->get('youtubePage').'",';
 
         return substr($social,0,-1);
     }
