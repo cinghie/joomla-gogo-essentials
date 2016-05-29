@@ -9,11 +9,11 @@
     <authorUrl>www.gogodigital.it</authorUrl>
     <version>3.0.3</version>
     <description><![CDATA[
-        <span style="padding: 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: justify; color: #4d4d4d; line-height: 24px;">
+        <span style="padding: 0 0 0 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: justify; color: #4d4d4d; line-height: 24px;">
             <h1 style="clear:both; font-family: Georgia, sans-serif; font-size:38px; margin:30px 20px 23px; padding:0px 0px 24px 10px; color:#333; border-bottom: 1px solid #eee; font-weight: normal;">
                 Gogodigital Essentials <small>ver. 3.0.3</small>
             </h1>
-            <p style="margin: 10px 26px">System Plugin with Essentials Utilities for all Joomla sites</p>
+            <p style="margin: 10px 26px">Joomla Gogodigital Essentials is a System Plugin with Essentials Utilities for all Joomla sites like SEO and Template Optimization, Microdata, Security, ecc...</p>
             <p style="margin: 10px 26px"><a target="_blank" href="http://www.gogodigital.it/development/estensioni/joomla/gogodigital-essentials">Learn More</a></p>
         </span>
     ]]></description>
