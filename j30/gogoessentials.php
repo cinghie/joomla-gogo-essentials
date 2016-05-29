@@ -76,10 +76,10 @@ class plgSystemGogoessentials extends JPlugin
             $doc->addCustomTag('<link href="'.$this->params->get('apple-touch-icon').'" rel="apple-touch-icon" />');
 
         if($this->params->get('fontAwesome'))
-            $doc->addStyleSheet(JURI::Base().'plugins/system/gogoessentials/css/font-awesome.min.css');
+            $doc->addStyleSheet(JURI::Base().'media/gogodigital/css/font-awesome.min.css');
 
         if($this->params->get('bootStrap'))
-            $doc->addStyleSheet(JURI::Base().'plugins/system/gogoessentials/css/bootstrap.min.css');
+            $doc->addStyleSheet(JURI::Base().'media/gogodigital/css/bootstrap.min.css');
 
         if($this->params->get('cssFilename'))
             $doc->addStyleSheet(JURI::Base().'templates/'.$app->getTemplate().'/'.$this->params->get('cssFilename'));
