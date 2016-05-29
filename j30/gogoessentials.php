@@ -64,19 +64,16 @@ class plgSystemGogoessentials extends JPlugin
         {
             $googleFonts = explode(",", $this->params->get('googleFonts'));
 
-            foreach($googleFonts as $googleFont)
-            {
+            foreach($googleFonts as $googleFont) {
                 $this->addGoogleFont($doc,$googleFont);
             }
         }
 
         if($this->params->get('favicon'))
-            $favicon = '<link href="'.$this->params->get('favicon').'" rel="icon" />';
-        $doc->addCustomTag($favicon);
+            $doc->addCustomTag('<link href="'.$this->params->get('favicon').'" rel="icon" />');
 
         if($this->params->get('apple-touch-icon'))
-            $apple_touch_icon = '<link href="'.$this->params->get('apple-touch-icon').'" rel="apple-touch-icon" />';
-        $doc->addCustomTag($apple_touch_icon);
+            $doc->addCustomTag('<link href="'.$this->params->get('apple-touch-icon').'" rel="apple-touch-icon" />');
 
         if($this->params->get('fontAwesome'))
             $doc->addStyleSheet(JURI::Base().'plugins/system/gogoessentials/css/font-awesome.min.css');
