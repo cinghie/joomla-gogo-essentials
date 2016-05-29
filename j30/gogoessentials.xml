@@ -7,8 +7,16 @@
     <license>GNU General Public License version 2 or later</license>
     <authorEmail>info@gogodigital.it</authorEmail>
     <authorUrl>www.gogodigital.it</authorUrl>
-    <version>3.0.2</version>
-    <description>GOGOESSENTIALS_DESCRIPTION</description>
+    <version>3.0.3</version>
+    <description><![CDATA[
+        <span style="padding: 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: justify; color: #4d4d4d; line-height: 24px;">
+            <h1 style="clear:both; font-family: Georgia, sans-serif; font-size:38px; margin:30px 20px 23px; padding:0px 0px 24px 10px; color:#333; border-bottom: 1px solid #eee; font-weight: normal;">
+                Gogodigital Essentials <small>ver. 3.0.3</small>
+            </h1>
+            <p style="margin: 10px 26px">System Plugin with Essentials Utilities for all Joomla sites</p>
+            <p style="margin: 10px 26px"><a target="_blank" href="http://www.gogodigital.it/development/estensioni/joomla/gogodigital-essentials">Learn More</a></p>
+        </span>
+    ]]></description>
     <files>
         <filename plugin="gogoessentials">gogoessentials.php</filename>
     </files>
@@ -153,6 +161,6 @@
                    description="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_DESC" />
             <field name="essentials_css_js_hr" type="spacer" hr="true" />
         </fieldset>
-	</fields>	
+	</fields>
     </config>
 </extension>
