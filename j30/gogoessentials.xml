@@ -11,10 +11,13 @@
     <description>System Plugin - Gogodigital Essentials</description>
     <files>
         <filename plugin="gogoessentials">gogoessentials.php</filename>
-		<folder>css/</folder>
-		<folder>fonts/</folder>
-		<folder>js/</folder>
     </files>
+    <media destination="gogodigital" folder="media">
+        <filename>index.html</filename>
+        <folder>css</folder>
+        <folder>fonts</folder>
+        <folder>js</folder>
+    </media>
     <languages>
         <language tag="en-GB">languages/en-GB.plg_system_gogoessentials.sys.ini</language>
         <language tag="it-IT">languages/it-IT.plg_system_gogoessentials.sys.ini</language>

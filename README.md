@@ -63,6 +63,7 @@ System Plugin with Essentials Utilities for all Joomla sites
 ###Utilities
 
  - Apple Touch Icon
+ - Apple Touch Icon 57x57, 72x72, 76x76, 114x114, 120x120, 144x144, 152x152, 180x180 (only Pro Version)
  - Favicon
 
 ###Framework
