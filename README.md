@@ -4,7 +4,7 @@ System Plugin with Essentials Utilities for all Joomla sites
 
 ##Microdata (only Pro Version)
 
- - Type (Event,LocalBusiness,Organization,Person)
+ - Type (Event, LocalBusiness, Organization, Person)
  - Name
  - Image
  - URL
@@ -24,9 +24,12 @@ System Plugin with Essentials Utilities for all Joomla sites
 ##Microdata - Social
 
  - Facebook Page
- - Twitter Page
  - Google+ Page
+ - Instagram Page
  - Linkedin Page
+ - Pinterest Page
+ - Twitter Page
+ - YouTube Page
 
 ##Security
 
@@ -42,10 +45,10 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Tracking Admin
  - Tracking Domain (only Pro Version)
  
-###Google Author/Publisher
+###Google Author/Publisher (only Pro Version)
 
-- Google Author
-- Google Publisher
+ - Google Author
+ - Google Publisher
  
 ###Verification
 
@@ -56,6 +59,11 @@ System Plugin with Essentials Utilities for all Joomla sites
  - Yandex 
 
 ##Template
+
+###Utilities
+
+ - Apple Touch Icon
+ - Favicon
 
 ###Framework
 

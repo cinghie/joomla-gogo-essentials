@@ -8,7 +8,7 @@
  * @github https://github.com/cinghie/joomla-gogo-essentials
  * @license GNU GENERAL PUBLIC LICENSE VERSION 2
  * @package Joomla Gogodigital Essentials
- * @version 3.0.0
+ * @version 3.0.3
  */
 
 // no direct access
@@ -40,12 +40,12 @@ class plgSystemGogoessentials extends JPlugin
     {
         $document = JFactory::getDocument();
 
-        if(!empty($this->params->get('alexaVerification'))) { $document->setMetaData('alexaVerifyID', $this->params->get('alexaVerification')); }
-        if(!empty($this->params->get('bingVerification'))) { $document->setMetaData('msvalidate.01', $this->params->get('bingVerification')); }
-        if(!empty($this->params->get('googleVerification'))) { $document->setMetaData('google-site-verification', $this->params->get('googleVerification')); }
-        if(!empty($this->params->get('nortonVerification'))) { $document->setMetaData('norton-safeweb-site-verification', $this->params->get('nortonVerification')); }
-        if(!empty($this->params->get('pinterestVerification'))) { $document->setMetaData('p:domain_verify', $this->params->get('pinterestVerification')); }
-        if(!empty($this->params->get('yandexVerification'))) { $document->setMetaData('yandex-verification', $this->params->get('yandexVerification')); }
+        if($this->params->get('alexaVerification')) { $document->setMetaData('alexaVerifyID', $this->params->get('alexaVerification')); }
+        if($this->params->get('bingVerification')) { $document->setMetaData('msvalidate.01', $this->params->get('bingVerification')); }
+        if($this->params->get('googleVerification')) { $document->setMetaData('google-site-verification', $this->params->get('googleVerification')); }
+        if($this->params->get('nortonVerification')) { $document->setMetaData('norton-safeweb-site-verification', $this->params->get('nortonVerification')); }
+        if($this->params->get('pinterestVerification')) { $document->setMetaData('p:domain_verify', $this->params->get('pinterestVerification')); }
+        if($this->params->get('yandexVerification')) { $document->setMetaData('yandex-verification', $this->params->get('yandexVerification')); }
     }
 
     public function onBeforeCompileHead()
@@ -69,6 +69,14 @@ class plgSystemGogoessentials extends JPlugin
                 $this->addGoogleFont($doc,$googleFont);
             }
         }
+
+        if($this->params->get('favicon'))
+            $favicon = '<link href="'.$this->params->get('favicon').'" rel="icon" />';
+        $doc->addCustomTag($favicon);
+
+        if($this->params->get('apple-touch-icon'))
+            $apple_touch_icon = '<link href="'.$this->params->get('apple-touch-icon').'" rel="apple-touch-icon" />';
+        $doc->addCustomTag($apple_touch_icon);
 
         if($this->params->get('googleAuthor'))
             $linkAuthor = '<link href="'.$this->params->get('googleAuthor').'" rel="author" />';
@@ -105,7 +113,7 @@ class plgSystemGogoessentials extends JPlugin
         if($this->params->get('googleAnalyticsID'))
             $this->addingTrackingCode($this->params->get('googleAnalyticsID'));
 
-        if($this->params->get('facebookPage') || $this->params->get('googlePage') || $this->params->get('linkedinPage') || $this->params->get('pinterestPage') || $this->params->get('twitterPage'))
+        if($this->params->get('facebookPage') || $this->params->get('googlePage') || $this->params->get('instagramPage') || $this->params->get('linkedinPage') || $this->params->get('pinterestPage') || $this->params->get('twitterPage') || $this->params->get('youtubePage'))
             $this->addingMicrodataSocialScript();
     }
 

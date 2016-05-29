@@ -98,7 +98,16 @@
                    description="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_DESC" />
             <field name="essentials_verification_hr" type="spacer" hr="true" />
         </fieldset>
-		<fieldset name="template">
+        <fieldset name="template">
+            <field name="favicon" type="media"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_FAVICON_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_FAVICON_DESC"
+                   directory="images" />
+            <field name="apple-touch-icon" type="media"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_APPLE_TOUCH_ICON_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_APPLE_TOUCH_ICON_DESC"
+                   directory="images" />
+            <field name="essentials_utilities_hr" type="spacer" hr="true" />
             <field name="bootStrap" type="radio" class="btn-group btn-group-yesno"
                    default="0"
                    description="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_DESC"
@@ -130,22 +139,22 @@
             <field name="googleFonts" type="text"
                    label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_LABEL"
                    description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_DESC" />
-			<field name="essentials_googlefont_hr" type="spacer" hr="true" />
-			<field name="cssFilename" type="text"
-				   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"
-				   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_DESC" />
-			<field name="cssStyle" type="textarea"
-				   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_LABEL"
-				   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_DESC" />
-			<field name="essentials_css_hr" type="spacer" hr="true" />
-			<field name="jsFilename" type="text"
-				   label="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_LABEL"
-				   description="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_DESC" />
-			<field name="jsScript" type="textarea"
-				   label="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_LABEL"
-				   description="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_DESC" />
-			<field name="essentials_js_hr" type="spacer" hr="true" />
-		</fieldset>
+            <field name="essentials_framework_hr" type="spacer" hr="true" />
+            <field name="cssFilename" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_DESC" />
+            <field name="cssStyle" type="textarea"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_DESC" />
+            <field name="essentials_css_hr" type="spacer" hr="true" />
+            <field name="jsFilename" type="text"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_DESC" />
+            <field name="jsScript" type="textarea"
+                   label="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_LABEL"
+                   description="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_DESC" />
+            <field name="essentials_css_js_hr" type="spacer" hr="true" />
+        </fieldset>
 	</fields>	
     </config>
 </extension>
