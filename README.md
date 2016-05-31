@@ -87,6 +87,7 @@ Joomla Gogodigital Essentials is a System Plugin with Essentials Utilities for a
 ##Changelog
 
 <ul>
+    <li>Version 3.0.5 - Update English translation</li>
     <li>Version 3.0.4 - Adding update channel</li>
     <li>Version 3.0.3 - Adding Instagram and Youtube (Microdata Social), Adding favicon and apple touch icon (Template), Move assets to media folder (Template)</li>
     <li>Version 3.0.2 - Preparing to Professional version</li>
