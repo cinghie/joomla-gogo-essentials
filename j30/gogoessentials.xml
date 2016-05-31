@@ -32,135 +32,138 @@
         <language tag="it-IT">languages/it-IT.plg_system_gogoessentials.ini</language>
         <language tag="it-IT">languages/it-IT.plg_system_gogoessentials.sys.ini</language>
     </languages>
+    <updateservers>
+        <server type="extension" priority="1" name="Gogodigital Essentials Updates"><![CDATA[https://raw.githubusercontent.com/cinghie/joomla-gogo-essentials/master/update.xml]]></server>
+    </updateservers>
     <config>
-	<fields name="params">
-		<fieldset name="microdata">
+        <fields name="params">
+            <fieldset name="microdata">
 
-		</fieldset>
-        <fieldset name="microdata_social">
-            <field name="facebookPage" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_DESC" />
-            <field name="googlePage" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PAGE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PAGE_DESC" />
-            <field name="instagramPage" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_INSTAGRAM_PAGE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_INSTAGRAM_PAGE_DESC" />
-            <field name="linkedinPage" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_LINKEDIN_PAGE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_LINKEDIN_PAGE_DESC" />
-            <field name="pinterestPage" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_PAGE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_PAGE_DESC" />
-            <field name="twitterPage" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_DESC" />
-            <field name="youtubePage" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_YOUTUBE_PAGE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_YOUTUBE_PAGE_DESC" />
-        </fieldset>
-        <fieldset name="opengraph">
+            </fieldset>
+            <fieldset name="microdata_social">
+                <field name="facebookPage" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_FACEBOOK_PAGE_DESC" />
+                <field name="googlePage" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PAGE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_PAGE_DESC" />
+                <field name="instagramPage" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_INSTAGRAM_PAGE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_INSTAGRAM_PAGE_DESC" />
+                <field name="linkedinPage" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_LINKEDIN_PAGE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_LINKEDIN_PAGE_DESC" />
+                <field name="pinterestPage" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_PAGE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_PAGE_DESC" />
+                <field name="twitterPage" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_TWITTER_PAGE_DESC" />
+                <field name="youtubePage" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_YOUTUBE_PAGE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_YOUTUBE_PAGE_DESC" />
+            </fieldset>
+            <fieldset name="opengraph">
 
-        </fieldset>
-        <fieldset name="security">
-            <field name="adminKey" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_DESC" />
-            <field name="adminRedirect" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_DESC" />
-            <field name="essentials_adminpsw_hr" type="spacer" hr="true" />
-        </fieldset>
-        <fieldset name="seo">
-            <field name="googleAnalyticsID" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_DESC" />
-            <field name="googleAnalyticsAdmin" type="radio" class="btn-group btn-group-yesno"
-                   default="0"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_DESC"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_LABEL">
-                <option value="1">JYES</option>
-                <option value="0">JNO</option>
-            </field>
-            <field name="essentials_ganlytics_hr" type="spacer" hr="true" />
-            <field name="alexaVerification" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_DESC" />
-            <field name="bingVerification" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_DESC" />
-            <field name="googleVerification" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_DESC" />
-            <field name="nortonVerification" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_DESC" />
-            <field name="pinterestVerification" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_DESC" />
-            <field name="yandexVerification" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_DESC" />
-            <field name="essentials_verification_hr" type="spacer" hr="true" />
-        </fieldset>
-        <fieldset name="template">
-            <field name="favicon" type="media"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_FAVICON_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_FAVICON_DESC"
-                   directory="images" />
-            <field name="apple-touch-icon" type="media"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_APPLE_TOUCH_ICON_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_APPLE_TOUCH_ICON_DESC"
-                   directory="images" />
-            <field name="essentials_utilities_hr" type="spacer" hr="true" />
-            <field name="bootStrap" type="radio" class="btn-group btn-group-yesno"
-                   default="0"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_DESC"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_LABEL">
-                <option value="1">JYES</option>
-                <option value="0">JNO</option>
-            </field>
-            <field name="fontAwesome" type="radio" class="btn-group btn-group-yesno"
-                   default="0"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_FONTAWESOME_DESC"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_FONTAWESOME_LABEL">
-                <option value="1">JYES</option>
-                <option value="0">JNO</option>
-            </field>
-            <field name="jquery" type="radio" class="btn-group btn-group-yesno"
-                   default="0"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_DESC"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_LABEL">
-                <option value="1">JYES</option>
-                <option value="0">JNO</option>
-            </field>
-            <field name="jquery-noconflict" type="radio" class="btn-group btn-group-yesno"
-                   default="0"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_NOCONFLICT_DESC"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_NOCONFLICT_LABEL">
-                <option value="1">JYES</option>
-                <option value="0">JNO</option>
-            </field>
-            <field name="googleFonts" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_DESC" />
-            <field name="essentials_framework_hr" type="spacer" hr="true" />
-            <field name="cssFilename" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_DESC" />
-            <field name="cssStyle" type="textarea"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_DESC" />
-            <field name="essentials_css_hr" type="spacer" hr="true" />
-            <field name="jsFilename" type="text"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_DESC" />
-            <field name="jsScript" type="textarea"
-                   label="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_LABEL"
-                   description="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_DESC" />
-            <field name="essentials_css_js_hr" type="spacer" hr="true" />
-        </fieldset>
-	</fields>
+            </fieldset>
+            <fieldset name="security">
+                <field name="adminKey" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_KEY_DESC" />
+                <field name="adminRedirect" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_ADMIN_REDIRECT_DESC" />
+                <field name="essentials_adminpsw_hr" type="spacer" hr="true" />
+            </fieldset>
+            <fieldset name="seo">
+                <field name="googleAnalyticsID" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ID_DESC" />
+                <field name="googleAnalyticsAdmin" type="radio" class="btn-group btn-group-yesno"
+                       default="0"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_DESC"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_GANALYTICS_ADMIN_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="essentials_ganlytics_hr" type="spacer" hr="true" />
+                <field name="alexaVerification" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_ALEXA_VERIFICATION_ID_DESC" />
+                <field name="bingVerification" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_BING_VERIFICATION_ID_DESC" />
+                <field name="googleVerification" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_VERIFICATION_ID_DESC" />
+                <field name="nortonVerification" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_NORTON_VERIFICATION_ID_DESC" />
+                <field name="pinterestVerification" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_PINTEREST_VERIFICATION_ID_DESC" />
+                <field name="yandexVerification" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_YANDEX_VERIFICATION_ID_DESC" />
+                <field name="essentials_verification_hr" type="spacer" hr="true" />
+            </fieldset>
+            <fieldset name="template">
+                <field name="favicon" type="media"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_FAVICON_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_FAVICON_DESC"
+                       directory="images" />
+                <field name="apple-touch-icon" type="media"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_APPLE_TOUCH_ICON_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_APPLE_TOUCH_ICON_DESC"
+                       directory="images" />
+                <field name="essentials_utilities_hr" type="spacer" hr="true" />
+                <field name="bootStrap" type="radio" class="btn-group btn-group-yesno"
+                       default="0"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_DESC"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_BOOTSTRAP_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="fontAwesome" type="radio" class="btn-group btn-group-yesno"
+                       default="0"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_FONTAWESOME_DESC"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_FONTAWESOME_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="jquery" type="radio" class="btn-group btn-group-yesno"
+                       default="0"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_DESC"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="jquery-noconflict" type="radio" class="btn-group btn-group-yesno"
+                       default="0"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_NOCONFLICT_DESC"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_JQUERY_NOCONFLICT_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="googleFonts" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_GOOGLE_FONTS_DESC" />
+                <field name="essentials_framework_hr" type="spacer" hr="true" />
+                <field name="cssFilename" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_CSS_FILENAME_DESC" />
+                <field name="cssStyle" type="textarea"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_CSS_STYLE_DESC" />
+                <field name="essentials_css_hr" type="spacer" hr="true" />
+                <field name="jsFilename" type="text"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_JS_FILENAME_DESC" />
+                <field name="jsScript" type="textarea"
+                       label="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_LABEL"
+                       description="PLG_SYSTEM_GOGOESSENTIALS_JS_SCRIPT_DESC" />
+                <field name="essentials_css_js_hr" type="spacer" hr="true" />
+            </fieldset>
+        </fields>
     </config>
 </extension>
