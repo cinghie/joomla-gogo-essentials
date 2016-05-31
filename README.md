@@ -68,8 +68,8 @@ Joomla Gogodigital Essentials is a System Plugin with Essentials Utilities for a
 
 ###Framework
 
- - Boostrap
- - Font Awesome
+ - Boostrap 3.3.6
+ - Font Awesome 4.6.3
  - Google Fonts
  - jQuery
  - jQuery No Conflict
