@@ -25,6 +25,8 @@
         <folder>css</folder>
         <folder>fonts</folder>
         <folder>js</folder>
+        <folder>less</folder>
+        <folder>scss</folder>
     </media>
     <languages>
         <language tag="en-GB">languages/en-GB.plg_system_gogoessentials.ini</language>
