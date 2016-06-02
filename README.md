@@ -1,6 +1,6 @@
-#Joomla Gogodigital Essentials
+#Gogodigital Essentials Plugin for Joomla
 
-Joomla Gogodigital Essentials is a System Plugin with Essentials Utilities for all Joomla sites like SEO and Template Optimization, Microdata, Security, ecc...
+Plugin Gogodigital Essentials is a System Plugin for Joomla with Essentials Utilities for all Joomla sites like SEO and Template Optimization, Microdata, Security, ecc...
 
 ##Microdata (only Pro Version)
 
@@ -87,6 +87,7 @@ Joomla Gogodigital Essentials is a System Plugin with Essentials Utilities for a
 ##Changelog
 
 <ul>
+    <li>Version 3.0.6 - Fix name for JED</li>
     <li>Version 3.0.5 - Update English translation</li>
     <li>Version 3.0.4 - Adding update channel</li>
     <li>Version 3.0.3 - Adding Instagram and Youtube (Microdata Social), Adding favicon and apple touch icon (Template), Move assets to media folder (Template)</li>
