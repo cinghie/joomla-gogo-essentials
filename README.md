@@ -87,6 +87,7 @@ Gogodigital Essentials Plugin for Joomla is a System Plugin with Essentials Util
 ##Changelog
 
 <ul>
+    <li>Version 3.0.7 - Replace deprecated method</li>
     <li>Version 3.0.6 - Fix name for JED</li>
     <li>Version 3.0.5 - Update English translation</li>
     <li>Version 3.0.4 - Adding update channel</li>

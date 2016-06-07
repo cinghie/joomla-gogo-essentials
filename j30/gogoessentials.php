@@ -8,7 +8,7 @@
  * @github https://github.com/cinghie/joomla-gogo-essentials
  * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package Joomla Gogodigital Essentials
- * @version 3.0.6
+ * @version 3.0.7
  */
 
 // no direct access
