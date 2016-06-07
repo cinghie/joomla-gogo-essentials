@@ -6,7 +6,7 @@
  * @website http://www.gogodigital.it
  * @email info@gogodigital.it
  * @github https://github.com/cinghie/joomla-gogo-essentials
- * @license GNU GENERAL PUBLIC LICENSE VERSION 2
+ * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package Joomla Gogodigital Essentials
  * @version 3.0.6
  */
