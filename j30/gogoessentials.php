@@ -29,7 +29,7 @@ class plgSystemGogoessentials extends JPlugin
     {
         $app  = JFactory::getApplication();
         $user = JFactory::getUser();
-        $var  = JRequest::getVar('adminKey');
+        $var  = $app->input->get($this->params->get('adminKey'));
 
         if($this->params->get('adminKey'))
         {
