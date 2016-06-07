@@ -22,16 +22,22 @@ class plgSystemGogoessentials extends JPlugin
         parent::__construct( $subject, $config );
     }
 
+    /**
+     *
+     */
     public function onAfterDispatch()
     {
         $app  = JFactory::getApplication();
         $user = JFactory::getUser();
+        $var  = JRequest::getVar('adminKey');
 
         if($this->params->get('adminKey'))
         {
-            if ($app->isAdmin() && !$user->id && !isset($_GET[$this->params->get('adminKey')]))
+            if ( $app->isAdmin() && !$user->id && !isset($var) )
             {
-                if(isset($_GET[$this->params->get('adminKey')])) { $app->redirect(JURI::root()); } else { $app->redirect($this->params->get('adminRedirect')); }
+                if(isset($var)) {
+                    $app->redirect(JURI::root()); } else { $app->redirect($this->params->get('adminRedirect'));
+                }
             }
         }
     }
